@@ -1,0 +1,100 @@
+/*https://coolors.co/274060-335c81-65afff-1b2845-5899e2*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: #65AFFF;
+    margin: 0 auto;
+    width: 80vw;
+    max-width: 1200px;
+}
+
+header {
+    background-color: #274060;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    color: #F2F3F5;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+header nav a {
+    text-decoration: none;
+    background-color: #335C81;
+    color: #5899E2;
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+header nav a:hover {
+    color: black;
+    background-color: #5899E2;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*background-color: #5899E2;*/
+    margin: 10px auto;
+    width: 80%;
+}
+
+footer {
+    background-color: #274060;
+    color: #65AFFF;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+@media (min-width:600px){
+    header nav {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    main {
+        display: flex;
+        gap: 70px;
+        margin: 0px 30px;
+    }
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+}
+
+.send-button-container{
+    margin: 0 auto;
+}
+
+label{
+    display: block;
+    padding-bottom: 8px;
+}
+
+@media (min-width:600px){
+    form{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .send-button-container {
+        grid-column: span 2;
+    }
+}
+
