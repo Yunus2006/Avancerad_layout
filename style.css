@@ -20,7 +20,7 @@ header {
     flex-direction: column;
     align-items: center;
     padding-bottom: 10px;
-    color: #F2F3F5;
+    color: ##F2F3F5;
 }
 
 header nav {
@@ -32,7 +32,7 @@ header nav {
 header nav a {
     text-decoration: none;
     background-color: #335C81;
-    color: #5899E2;
+    color: #F2F3F5;
     border-radius: 20px;
     padding: 5px 10px;
     text-align: center;
